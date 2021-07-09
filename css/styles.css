@@ -7,9 +7,10 @@ div{
 }
 
 .layout{
-    width: 90%;
+    width: 95%;
     height: 90vh;
     margin: 60px auto;
+    padding: 5px;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(9, 1fr);
@@ -70,7 +71,7 @@ div{
 }
 
 .category p{
-    font-size: 0.7em;
+    font-size: 0.56em;
     font-weight: bold;
     text-align: center;
     margin: 0px;
@@ -224,7 +225,7 @@ div{
     background-color: #ddd;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 0px 0px 2px;
+    box-shadow: 0px 0px 2px #aaa;
 }
 
 .num_one_period h5{
@@ -276,7 +277,342 @@ margin: 0px;
 
 .element{
     background-color: salmon;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     border-radius: 5px;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.hmt_alc{
+    grid-column: 2/3;
+}
+
+.m_alt{
+    grid-column: 3/4;
+}
+
+.berilio{
+    grid-row: 4/5;
+}
+
+.magnesio{
+    grid-row: 5/6;
+}
+
+.calcio{
+    grid-row: 6/7;
+}
+
+.estroncio{
+    grid-row: 7/8;
+}
+
+.bario{
+    grid-row: 8/9;
+}
+
+.radio{
+    grid-row: 9/10;
+}
+
+.espacio{
+    grid-column: 4/5;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 2px #aaa;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.one{
+    grid-row: 3/4;
+}
+
+.two{
+    grid-row: 4/5;
+}
+
+.three{
+    grid-row: 5/6;
+}
+
+.four{
+    grid-row: 6/7;
+}
+
+.five{
+    grid-row:7/8;
+}
+
+.six{
+    grid-row: 8/9;
+    background-color: greenyellow;
+}
+
+.six a{
+    text-decoration: none;
+    color: black;
+}
+
+.seven{
+    grid-row: 9/10;
+    background-color: greenyellow;
+}
+
+.seven a{
+    text-decoration: none;
+    color: black;
+}
+
+.norm_a{
+    grid-column: 5/6;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.escandio{
+    grid-row: 6/7;
+}
+
+.itrio{
+    grid-row: 7/8;
+}
+
+.lutecio{
+    grid-row: 8/9;
+}
+
+.lawrencio{
+    grid-row: 9/10;
+}
+
+.norm_b{
+    grid-column: 6/7;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.titanio{
+    grid-row: 6/7;
+}
+
+.zirconio{
+    grid-row: 7/8;
+}
+
+.hafnio{
+    grid-row: 8/9;
+}
+
+.ruterfodio{
+    grid-row: 9/10;
+}
+
+.norm_c{
+    grid-column: 7/8;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.vanadio{
+    grid-row: 6/7;
+}
+
+.niobio{
+    grid-row: 7/8;
+}
+
+.tantalio{
+    grid-row: 8/9;
+}
+
+.dubnio{
+    grid-row: 9/10;
+}
+
+.norm_d{
+    grid-column: 8/9;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.cromo{
+    grid-row: 6/7;
+}
+
+.molibdeno{
+    grid-row: 7/8;
+}
+
+.tungsteno{
+    grid-row: 8/9;
+}
+
+.seaborgio{
+    grid-row: 9/10;
+}
+
+.norm_e{
+    grid-column: 9/10;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.manganeso{
+    grid-row: 6/7;
+}
+
+.tecnesio{
+    grid-row: 7/8;
+}
+
+.renio{
+    grid-row: 8/9;
+}
+
+.bohrio{
+    grid-row: 9/10;
+}
+
+.norm_f{
+    grid-column: 9/10;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.fierro{
+    grid-row: 6/7;
+}
+
+.rutenio{
+    grid-row: 7/8;
+}
+
+.osmio{
+    grid-row: 8/9;
+}
+
+.hasio{
+    grid-row: 9/10;
+}
+
+.norm_g{
+    grid-column: 10/11;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.cobalto{
+    grid-row: 6/7;
+}
+
+.rodio{
+    grid-row: 7/8;
+}
+
+.iridio{
+    grid-row: 8/9;
+}
+
+.meitnerio{
+    grid-row: 9/10;
+}
+
+.norm_h{
+    grid-column: 11/12;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.niquel{
+    grid-row: 6/7;
+}
+
+.paladio{
+    grid-row: 7/8;
+}
+
+.platino{
+    grid-row: 8/9;
+}
+
+.darmstalio{
+    grid-row: 9/10;
+}
+
+.norm_i{
+    grid-column: 12/13;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.cobre{
+    grid-row: 6/7;
+}
+
+.plata{
+    grid-row: 7/8;
+}
+
+.oro{
+    grid-row: 8/9;
+}
+
+.roentgenio{
+    grid-row: 9/10;
+}
+
+.norm_j{
+    grid-column: 13/14;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.zinc{
+    grid-row: 6/7;
+}
+
+.cadmio{
+    grid-row: 7/8;
+}
+
+.mercurio{
+    grid-row: 8/9;
+}
+
+.copernicio{
+    grid-row: 9/10;
+}
+
+.norm_k{
+    grid-column: 14/15;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.boro{
+    grid-row: 4/5;
+}
+
+.aluminio{
+    grid-row: 5/6;
+}
+
+.galio{
+    grid-row: 6/7;
+}
+
+.indio{
+    grid-row: 7/8;
+}
+
+.talio{
+    grid-row: 8/9;
+}
+
+.nihonio{
+    grid-row: 9/10;
 }
