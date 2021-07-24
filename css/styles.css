@@ -478,7 +478,7 @@ margin: 0px;
 }
 
 .norm_f{
-    grid-column: 9/10;
+    grid-column: 10/11;
     background-color: cornflowerblue;
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -500,7 +500,7 @@ margin: 0px;
 }
 
 .norm_g{
-    grid-column: 10/11;
+    grid-column: 11/12;
     background-color: cornflowerblue;
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -522,7 +522,7 @@ margin: 0px;
 }
 
 .norm_h{
-    grid-column: 11/12;
+    grid-column: 12/13;
     background-color: cornflowerblue;
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -544,7 +544,7 @@ margin: 0px;
 }
 
 .norm_i{
-    grid-column: 12/13;
+    grid-column: 13/14;
     background-color: cornflowerblue;
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -566,7 +566,7 @@ margin: 0px;
 }
 
 .norm_j{
-    grid-column: 13/14;
+    grid-column: 14/15;
     background-color: cornflowerblue;
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -588,7 +588,7 @@ margin: 0px;
 }
 
 .norm_k{
-    grid-column: 14/15;
+    grid-column: 15/16;
     background-color: rgb(255, 255, 137);
     box-shadow: 0px 0px 2px #aaa;
 }
@@ -614,5 +614,160 @@ margin: 0px;
 }
 
 .nihonio{
+    grid-row: 9/10;
+}
+
+.norm_l{
+    grid-column: 16/17;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.carbon{
+    grid-row: 4/5;
+}
+
+.silicio{
+    grid-row: 5/6;
+}
+
+.germanio{
+    grid-row: 6/7;
+}
+
+.estaño{
+    grid-row: 7/8;
+}
+
+.plomo{
+    grid-row: 8/9;
+}
+
+.flerovio{
+    grid-row: 9/10;
+}
+
+.norm_m{
+    grid-column: 17/18;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.nitrogeno{
+    grid-row: 4/5;
+}
+
+.fosforo{
+    grid-row: 5/6;
+}
+
+.arsenico{
+    grid-row: 6/7;
+}
+
+.antimonio{
+    grid-row: 7/8;
+}
+
+.bismuto{
+    grid-row: 8/9;
+}
+
+.moscovio{
+    grid-row: 9/10;
+}
+
+.norm_n{
+    grid-column: 18/19;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.oxigeno{
+    grid-row: 4/5;
+}
+
+.azufre{
+    grid-row: 5/6;
+}
+
+.selenio{
+    grid-row: 6/7;
+}
+
+.telurio{
+    grid-row: 7/8;
+}
+
+.polonio{
+    grid-row: 8/9;
+}
+
+.livermorio{
+    grid-row: 9/10;
+}
+
+.norm_o{
+    grid-column: 19/20;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.fluor{
+    grid-row: 4/5;
+}
+
+.cloro{
+    grid-row: 5/6;
+}
+
+.bromo{
+    grid-row: 6/7;
+}
+
+.yodo{
+    grid-row: 7/8;
+}
+
+.astato{
+    grid-row: 8/9;
+}
+
+.teneso{
+    grid-row: 9/10;
+}
+
+.norm_p{
+    grid-column: 20/21;
+    background-color: rgb(255, 255, 137);
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.helio{
+    background-color: salmon;
+    grid-row: 3/4;
+}
+
+.neon{
+    grid-row: 4/5;
+}
+
+.argon{
+    grid-row: 5/6;
+}
+
+.krypton{
+    grid-row: 6/7;
+}
+
+.xenon{
+    grid-row: 7/8;
+}
+
+.radon{
+    grid-row: 8/9;
+}
+
+.oganeson{
     grid-row: 9/10;
 }
